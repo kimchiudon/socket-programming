@@ -13,4 +13,4 @@ while True:
 
     modifiedMessage = message.decode().upper()
 
-    serverSocekt.sendto(modifiedMessage.encode(), clientAddress)
+    serverSocket.sendto(modifiedMessage.encode(), clientAddress)
